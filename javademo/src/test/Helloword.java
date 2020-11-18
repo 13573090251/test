@@ -8,10 +8,11 @@ public class Helloword {
 	}
 
 	/*
-	sayhi方法
+	sayhi方法a
 	*/
 	public void sayhi() {
 		System.out.println("sayhi方法");
+		System.out.println("xinfangfa");
 	}
 
 }
