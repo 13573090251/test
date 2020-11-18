@@ -1,5 +1,7 @@
 package test;
 
+import org.junit.Test;
+
 public class Helloword {
 
 	public static void main(String[] args) {
@@ -8,10 +10,17 @@ public class Helloword {
 	}
 
 	/*
-	sayhi方法a
+	sayhi鏂规硶
 	*/
+
 	public void sayhi() {
-		System.out.println("sayhi方法");
+		System.out.println("sayhi鏂规硶");
+		System.out.println("xinfangfa");
+	}
+
+	@Test
+	public void fun1() {
+		System.out.println("sayhi鏂规硶");
 		System.out.println("xinfangfa");
 	}
 
